@@ -15,6 +15,7 @@
 </head>
 
 <body>
+
 	<!--Header-->
 	<header>
 		<div class="inner-header">
@@ -37,7 +38,7 @@
 
 	<!--Updates-->
 	<div class="main">
-		<div class="main-container">
+		<div class="main-container" id = "blog">
 			<h2>Updates</h2>
 			<div class=update>
 				<h3></h3>
@@ -218,26 +219,26 @@
 				<p>This is the book that really made me want to make this website. It's a wonderful book for upcoming artists about, well, sharing your work. Particularly sharing your process, and the things that inspire you. In the spirit of that: here is something that inspired me. #NotSponsored</p>
 				<a target="_blank" href="https://austinkleon.com/show-your-work/">Austin Kleon: Show Your Work!</a>
 			</div>
-			<div class=update>
+			<div class=update id = "update">
 				<h3>First Update</h3>
 				<p>Wednesday, November 06, 2019</p>
 				<p>This is the first update, declaring that I made a website. Hurray!</p>
 			</div>
 			</div>
 		</div>
-	</div>
 
 	<!--Pagination-->
  	<input type="button" id="first" onclick="firstPage()" value="first" />
-	<input type="button" id="next" onclick="nextPage()" value="next" />
 	<input type="button" id="previous" onclick="previousPage()" value="previous" />
+	<input type="button" id="next" onclick="nextPage()" value="next" />
 	<input type="button" id="last" onclick="lastPage()" value="last" />
 
-	<script src="main.js"></script>
 
 	<!--footer-->
 	<footer>
 		<p>© 2019 Egill Atlason</p>
 	</footer>
+		<script src="main.js"></script>
+
 </body>
 </html>
